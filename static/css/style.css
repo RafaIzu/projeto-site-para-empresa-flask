@@ -41,3 +41,13 @@ body{
     transform: translate3D(0, -2px, 0);
 }
 
+
+.row{
+    height: 60em;
+}
+
+.coluna{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
