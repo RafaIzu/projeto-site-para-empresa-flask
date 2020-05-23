@@ -1,0 +1,43 @@
+.titulo{
+    text-align: center;
+}
+
+body{
+    font-family: 'Alegreya', serif;
+    background-color: white;
+}
+.caixa{ 
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.artigos{
+    border: 2px solid #2ea4ff;
+    background-color: white;
+    border-radius: 20px;
+    max-width: 200px;
+    margin: 0.5em;
+    overflow: hidden; 
+}
+
+.artigos p{
+    font-size: 0.9em;
+    text-align: center;
+    
+}
+
+.artigos h3{
+    background-color: #2ea4ff;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 0.5em;
+}
+
+.artigos:hover{
+    box-shadow: 2px 8px 45px rgba(0, 0, 0, .4);
+    transform: translate3D(0, -2px, 0);
+}
+
