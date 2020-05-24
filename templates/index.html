@@ -1,0 +1,51 @@
+{% extends '_base.html' %}
+
+{% block title %}
+Inicio
+{% endblock title %}
+
+
+{% block style %}
+  <link rel = 'stylesheet' type="text/css" href="static/css/style.css">
+{% endblock style %}
+
+
+{% block content %}
+  <div class="container d-flex justify-content-around align-items-center flex-wrap">
+    <div class="item"> 
+
+      <div id="titulo" class="text-primary h1 p-2">Empresa</div>
+
+      <form action="/funcionarios" method="POST">
+        <div class="form-group">
+          <label class="text-info text-dark h4 m-4">Nome do usuário</label>
+          <input type="text" name="nome" class="form-control text-center" autofocus>
+        </div>
+        <div>
+          <input type="submit" name="" style="display: none;">
+        </div>
+      </form>
+
+      <div id="relogio" class="text-white h1">00:00:00</div>
+    </div>
+
+    <div class="text-dark h5 item"> 
+      <table class="table-light table-striped">
+
+        <thead class="text-info">
+          <tr>
+            <th class="text-danger">Funcionario</th>
+            <th class="text-danger">Hora</th>
+          </tr>
+        </thead>
+
+        <tbody id="lista">
+        </tbody>
+      </table>
+    </div>
+  </div>
+{% endblock content %}
+
+{% block scripts %}
+<script src="/static/js/script.js"></script>
+{% endblock scripts %}

@@ -33,8 +33,13 @@ def visitante():
         return render_template('/obrigado.html')
 
 
-@app.route('/cursos')
+
+@app.route('/inicio')
 @app.route('/')
+def inicio():
+    return render_template('index.html')
+
+@app.route('/cursos')
 def cursos():
     return render_template('/cursos.html')
 

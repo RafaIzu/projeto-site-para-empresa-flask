@@ -12,6 +12,13 @@ body{
     
 }
 
+.coluna{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*pagina cursos*/
 .artigos{
     border: 2px solid #2ea4ff;
     background-color: white;
@@ -40,17 +47,13 @@ body{
     transform: translate3D(0, -2px, 0);
 }
 
-
+/*pagina login*/
 .linha_login{
     height: 30em;
 }
 
-.coluna{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
+/*pagina contato*/
 .linha-contato{
     height: 30em;
 }
@@ -80,6 +83,8 @@ body{
     margin-top: 70px;
 }
 
+
+/*pagina sobre*/
 .container_sobre{
     display: flex;
     flex-direction:column;
@@ -89,4 +94,25 @@ body{
 .titulo_sobre{
     color: red;
     margin: 30px;
+}
+
+
+/*funcionarios*/
+.container {
+	height: 600px;
+	max-width: 1000px;
+	text-align: center;
+}
+
+#titulo {
+	border: 2px solid #59a0fc;;
+	border-radius: 20px;
+}
+
+.item {
+	margin: 1em;
+}
+
+.nome {
+	width: 8em;
 }
