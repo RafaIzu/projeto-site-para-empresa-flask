@@ -50,19 +50,16 @@ body{
 /*pagina login*/
 .linha_login{
     height: 30em;
-    width: 80em;
-    
+   
 }
 
-.container_login{
-    margin: auto;
-}
 
 /*pagina contato*/
 
+
 .linha-contato{
     height: 30em;
-    width: 90em;
+    max-width: 1000px ;
 }
 
 .linha-greetings{
