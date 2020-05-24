@@ -58,12 +58,10 @@ body{
     height: 30em;
 }
 
-.greetings{
+.linha-greetings{
     display: flex;
     color: #368dff;
-    padding-top: 60px;
-    padding-bottom: 30px;
-    margin-left: 350px;
+
 }
 
 .container_obrigado{
