@@ -3,7 +3,6 @@
 }
 
 body{
-    font-family: 'Alegreya', serif;
     background-color: white;
 }
 .caixa{ 
@@ -42,8 +41,8 @@ body{
 }
 
 
-.row{
-    height: 60em;
+.linha_login{
+    height: 30em;
 }
 
 .coluna{
