@@ -50,6 +50,7 @@ body{
 /*pagina login*/
 .linha_login{
     height: 30em;
+    margin-right: 80px;
    
 }
 
@@ -59,7 +60,7 @@ body{
 
 .linha-contato{
     height: 30em;
-    max-width: 1000px ;
+    margin-right: 100px;
 }
 
 .linha-greetings{
