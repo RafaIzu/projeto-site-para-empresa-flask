@@ -15,7 +15,7 @@ body{
 .coluna{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 /*pagina cursos*/
@@ -50,20 +50,32 @@ body{
 /*pagina login*/
 .linha_login{
     height: 30em;
+    width: 80em;
+    
 }
 
+.container_login{
+    margin: auto;
+}
 
 /*pagina contato*/
+
 .linha-contato{
     height: 30em;
+    width: 90em;
 }
 
 .linha-greetings{
     display: flex;
-    color: #368dff;
-
+    
 }
 
+.greeting_menssage{
+    color: #368dff;
+    align-items: center;
+}
+
+/*pagina obrigado*/
 .container_obrigado{
     display: flex;
     align-items: center;
@@ -86,12 +98,16 @@ body{
 .container_sobre{
     display: flex;
     flex-direction:column;
-    align-items: center;
+    
 
 }
 .titulo_sobre{
     color: red;
     margin: 30px;
+    align-self: center;
+}
+.conteudo{
+    text-align: justify;
 }
 
 
