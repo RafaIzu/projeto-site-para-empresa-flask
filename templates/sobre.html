@@ -1,0 +1,47 @@
+{% extends '_base.html' %}
+
+{% block title %}
+Sobre
+{% endblock title %}
+
+{% block style %}
+<style>
+    .container_sobre{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+
+}
+.titulo_sobre{
+    color: red;
+    margin: 30px;
+}
+
+</style>
+{% endblock style %}
+
+
+{% block content %}
+
+<div class="container container_sobre">
+    <h1 class="titulo_sobre">Falamos Sobre a empresa</h1>
+    <div class="conteudo">
+        <p>Na concepção jurídica, do direito comercial, atividade empresarial,
+           ou empresa, é uma atividade econômica exercida profissionalmente pelo
+           empresário por meio da articulação dos fatores produtivos para a produção
+           ou circulação de bens ou de serviços. O conceito jurídico de empresa não
+           pode ser confundido com o de um sujeito de direito, o de uma pessoa jurídica,
+           tampouco com o local onde aquela atividade econômica é desenvolvida. </p>
+        <p>
+            O economista norte-americano Ronald H. Coase conceitua empresa,
+            estruturalmente, como um conjunto de feixes de contratos de duração prolongada,
+            firmados a fim de organizar os fatores de produção ou insumos e reduzir os custos de transação. 
+        </p>
+    </div>
+    
+</div>
+
+{% endblock content %}
+
+{% block scripts %}
+{% endblock scripts %}

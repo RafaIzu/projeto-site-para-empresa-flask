@@ -33,10 +33,10 @@ def visitante():
         return render_template('/obrigado.html')
 
 
-@app.route('/inicio')
+@app.route('/cursos')
 @app.route('/')
-def inicio():
-    return render_template('index.html')
+def cursos():
+    return render_template('/cursos.html')
 
 
 @app.route('/contato')
@@ -50,8 +50,12 @@ def obrigado():
 
 
 @app.route('/login')
-def pagina_curriculo():
-    return render_template('login.html')
+def login():
+    return render_template('/login.html')
+
+@app.route('/sobre')
+def sobre():
+    return render_template('/sobre.html')
 
 
 if __name__ == '__main__':

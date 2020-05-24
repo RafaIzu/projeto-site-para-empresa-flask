@@ -17,7 +17,7 @@ for(var i = 0; i < 10; i++){
     caixa.appendChild(c)
 
     var t = document.createElement('h3')
-    t.textContent = 'Titulo ' + (i+1)
+    t.textContent = 'Curso ' + (i+1)
 
     c.appendChild(t)
 

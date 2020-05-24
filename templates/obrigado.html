@@ -5,32 +5,16 @@
 
 
     {% block style %}
-      <style>
-        .container{
-          display: flex;
-          align-items: center;
-        }
-        .row{
-          margin-left: 100px;
-          margin-top: 50px;
-        }
-        .texto{
-          margin-left: 50px;
-        }
-        .botao{
-          margin-top: 50px;
-        }
-
-      </style>
+        <link rel = 'stylesheet' href="static/css/style.css">
     {% endblock style %}
 
 
     {% block content %}
-    <div class="container">
+    <div class="container conteiner_obrigado">
       <div class="row">
         <div class="conteudo"> 
-          <h1 class="text-primary">Obrigado por entrar em contato conosco!</h1>
-          <a class="btn btn-primary" href="{{url_for('contato')}}">Voltar ao inicio</a>
+          <h1 class="text-primary texto_obrigado">Obrigado por entrar em contato conosco!</h1>
+          <a class="btn btn-primary botao_obrigado_volta" href="{{url_for('contato')}}">Voltar ao inicio</a>
       </div>
       </div>
     </div>

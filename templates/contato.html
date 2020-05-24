@@ -5,33 +5,13 @@
     {% endblock title %}
 
     {% block style %}
-      <style>
-        .row{
-          height: 30em;
-        }
-
-        .coluna{
-          display: flex;
-          align-items: center;
-          justify-content: center;
-        }
-
-        .greetings{
-          display: flex;
-          background-color:#368dff;
-          color: white;
-          padding-top: 60px;
-          padding-bottom: 30px;
-          padding-left: 10px;
-        }
-
-      </style>
+    <link rel="stylesheet" type="text/css"href="static/css/style.css">
     {% endblock style %}
 
     {% block content %}
     <div class = "container"> 
       <h1 class = "greetings">Entre em contato</h1>
-      <div class = "row">
+      <div class = "row linha-contato">
         <div class ="col-12 col-md-4 coluna">  
           <img src ="/static/img/html5_css3.png" alt="logo da empresa" height="200">
         </div>
