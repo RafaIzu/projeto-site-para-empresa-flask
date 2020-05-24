@@ -1,4 +1,4 @@
-from flask import Flask, render_template 
+from flask import Flask, render_template, request, jsonify 
 app = Flask(__name__)
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
