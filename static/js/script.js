@@ -1,30 +1,6 @@
 //pagina funcionarios
 
 
-const siteClock = () =>{
-    let clock = document.getElementById('relogio')
-    let hoje = new Date()
-    let hour = hoje.getHours()
-    let minutes = hoje.getMinutes()
-    let seconds = hoje.getSeconds()
-
-    if(hour < 10){
-        hour = '0' + hour
-    }
-    if(minutes < 10){
-        minutes = '0' + minutes
-    }
-
-    if(seconds < 10){
-        seconds = '0' + seconds
-    }
-
-    clock.textContent = hour + ':' + minutes + ':' + seconds
-
-}
-
-setInterval(siteClock, 1000)
-
 
 const raiz = document.getElementById('lista');
 
