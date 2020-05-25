@@ -19,6 +19,14 @@ body{
 }
 
 /*pagina cursos*/
+
+.titulo_cursos{
+    text-align: center;
+    margin: 50px;
+
+}
+
+
 .artigos{
     border: 2px solid #2ea4ff;
     background-color: white;
@@ -36,7 +44,7 @@ body{
 
 .artigos h3{
     background-color: #2ea4ff;
-    color: white;
+    color: rgb(12, 0, 63);
     text-align: center;
     font-size: 1.2em;
     padding: 0.5em;
