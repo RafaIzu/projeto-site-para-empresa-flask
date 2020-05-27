@@ -23,7 +23,6 @@ class Mensagem(db.Model):
 class Apontamento(db.Model):
     id = db.Column(db.Integer, primary_key = True, autoincrement = True)
     nome_usuario = db.Column(db.String(25), nullable = True)
-    ##hora = db.Column(db.DateTime, default = datetime.now)
     hora = db.Column(db.DateTime, default = datetime.now().astimezone(timezone('America/Sao_Paulo')))
 
     @property
